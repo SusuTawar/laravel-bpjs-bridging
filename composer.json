@@ -1,0 +1,36 @@
+{
+    "name": "susutawar/laravel-bpjs-bridging",
+    "description": "Implementasi sederhana untuk bridging BPJS untuk Laravel",
+    "type": "library",
+    "require": {
+        "susutawar/php-bpjs-bridging": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LaravelBpjsBridging\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SusuTawar",
+            "email": "realsusutawar@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SusuTawar/php-bpjs-bridging"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelBpjsBridging\\Providers\\BpjsBridgingServiceProvider"
+            ],
+            "aliases": {
+                "Antrean": "Randolf\\CustomPackage\\Facades\\Antrean"
+            }
+        }
+    }
+}
