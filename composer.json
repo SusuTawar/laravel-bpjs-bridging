@@ -3,7 +3,7 @@
     "description": "Implementasi sederhana untuk bridging BPJS untuk Laravel",
     "type": "library",
     "require": {
-        "susutawar/php-bpjs-bridging": "dev-main"
+        "susutawar/php-bpjs-bridging": "1.1.0"
     },
     "license": "MIT",
     "autoload": {

@@ -23,6 +23,7 @@ Untuk kemudahan penggunaan, package ini menyediakan facade sesuai modul yang ter
 
 ```php
 use LaravelBpjsBridging\Facades\Antrean;
+use LaravelBpjsBridging\Facades\Apotek;
 ```
 
 semua method yang tersedia pada modul [PHP BPJS Bridging](https://github.com/SusuTawar/php-bpjs-bridging) dapat digunakan pada facade ini.
